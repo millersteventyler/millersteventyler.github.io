@@ -1,0 +1,25 @@
+* {
+	background-color: grey;
+}
+.title {
+	text-align: center;
+}
+.navbar {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.navbar__item {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.my-picture {
+	display: block;
+	width: 450px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 75%;
+}
