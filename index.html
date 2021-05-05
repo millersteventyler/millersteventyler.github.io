@@ -7,44 +7,79 @@
     <link rel="styleSheet" href="styleSheet.css">
 </head>
 <body>
-    <h1 class="title">Steven T. Miller's Portfolio</h1>
-    
-    <!-- Link list items to respective part on page -->
-    
-    <div>
-    <ul class="navbar"> 
-        <li class="navbar__item" id="Home"></li>
-        <li class="navbar__item"><a href="#About-me">About Me</a></li>   
-        <li class="navbar__item"><a href="#Projects">Projects</a></li>
-        <li class="navbar__item"><a href="#Contact">Contact</a></li>
-    </ul>
+    <div class="title" id="Home">
+        <h1 class="title__content">Steven T. Miller's Portfolio</h1>
     </div>
     
-    <div><img class="my-picture" src="images/Badge Photo.jpeg" alt="Steven Miller smiling"></div>
-    
-    <h3 id="About-me">About Me</h3>
-    
-    <p>I am a 26 year old United States Marine Corps veteran, in service I had the pleasure of working on the UH-1Y, AH-1W and AH-1Z helicopters. My experiences taught me how to work under extremely stressful situations, work as a team, lead others and get any job done in any circumstance.</p>
-    
-    <h3 id="Projects">Projects</h3>
+    <div class="navbar">
+        <ul class="navbar__list"> 
+            <li class="navbar__list__item">
 
-    <ul>
-        <li><a href="https://github.com/millersteventyler/my_first_repo.git">My first repository</a></li>
-        <!-- <li>Project 2</li> -->
-        <!-- <li>Project 3</li> -->
-        <!-- <li>Project 4</li> -->
-        <!-- <li>Project 5</li> -->
-    </ul>
+            </li>
+            <li class="navbar__list__item">
+                <a href="#About-me">About Me</a>
+            </li>   
+            <li class="navbar__list__item">
+                <a href="#Projects">Projects</a>
+            </li>
+            <li class="navbar__list__item">
+                <a href="#Contact">Contact</a>
+            </li>
+        </ul>
+    </div>
     
-    <h3 id="Contact">Contact Steven T. Miller</h3>
+    <div class="picture">
+        <img class="picture__item" src="images/Badge Photo.jpeg" alt="Steven Miller smiling">
+    </div>
+    
+    <div class="about-me">
+        <h2 id="About-me__item">About Me</h2>
+    </div>
+
+    <div class="about-para">
+        <p>I am a 26 year old United States Marine Corps veteran, in service I had the pleasure of working on the UH-1Y, AH-1W and AH-1Z helicopters. My experiences taught me how to work under extremely stressful situations, work as a team, lead others and get any job done in any circumstance.</p>
+    </div>
+
+    <div class="Projects">
+        <h2 id="Projects">Projects</h2>
+    </div>
+
+    <div class="Projects-list">
+        <ul>
+            <li>
+                <a href="https://github.com/millersteventyler/my_first_repo.git">My first repository</a>
+            </li>
+            <!-- <li>Project 2</li> -->
+            <!-- <li>Project 3</li> -->
+            <!-- <li>Project 4</li> -->
+            <!-- <li>Project 5</li> -->
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h3 class="contact__item" id="Contact">Contact Steven T. Miller by:</h3>
+    </div>
+
+    <div class="address">
     <address>
-    <ul>
-        <li>Phone Number: (808) 366-9078</li>
-        <li><a href="mailto:millersteventyler@gmail.com">Email: millersteventyler@gmail.com</a></li>
-        <li><a href="https://www.linkedin.com/in/millersteventyler/">LinkedIn</a></li>
+    <ul class="address__list">
+        <li class="address__list__item">
+            <a href="tel:8083669078">Phone Number: (808) 366-9078</a>
+        </li>
+        <li class="address__list__item">
+            <a href="mailto:millersteventyler@gmail.com">Email: millersteventyler@gmail.com</a>
+        </li>
+        <li class="address__list__item"> 
+            <a href="https://www.linkedin.com/in/millersteventyler/">LinkedIn</a>
+        </li>
     </ul>
-    
-    <div><h3><a href="#Home">Home></a></h3></div>
+    <div class="home">
+        <h2>
+            <a href="#Home">Home</a>
+        </h2>
+    </div>
     </address>
+    </div>
+
 </body>
 </html>

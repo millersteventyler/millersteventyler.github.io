@@ -1,25 +1,91 @@
 * {
-	background-color: grey;
+	background-color: silver;
 }
+
+body {
+}
+
 .title {
 	text-align: center;
 }
+
 .navbar {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	padding-bottom: 15px;
-}
-.navbar__item {
-	display: inline-block;
-	list-style-type: none;
+	padding-left: 580px;
 }
 
-.my-picture {
+.navbar__list {
+}
+
+.navbar__list__item {
+	font-size: larger;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.picture {
+}
+
+.picture__item {
 	display: block;
 	width: 450px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 75%;
+}
+.about-me {
+	text-align: center;
+}
+
+.about-me__item {
+}
+
+.about-para {
+}
+
+.Projects {
+	text-align: center;
+}
+
+.Projects__list {
+}
+
+.contact {
+}
+
+.contact__item {
+	margin-bottom: 5px;
+}
+
+.address {
+}
+
+.address__list {
+	text-decoration: none;
+	display: contents;
+}
+
+.address__list__item {
+}
+
+.home {
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+a:active {
+	text-decoration: underline;
+	text-decoration-color: red;
 }
