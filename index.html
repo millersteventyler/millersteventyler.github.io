@@ -3,83 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steven T. Miller's portfolio</title>
+    <title>Steven's Portfolio</title>
     <link rel="styleSheet" href="styleSheet.css">
 </head>
 <body>
-    <div class="title" id="Home">
-        <h1 class="title__content">Steven T. Miller's Portfolio</h1>
+    <div class="page-title" id="home">
+        <h1 class="page-title__item">Steven T. Miller</h1>
     </div>
-    
+
     <div class="navbar">
-        <ul class="navbar__list"> 
-            <li class="navbar__list__item">
-
-            </li>
-            <li class="navbar__list__item">
-                <a href="#About-me">About Me</a>
-            </li>   
-            <li class="navbar__list__item">
-                <a href="#Projects">Projects</a>
-            </li>
-            <li class="navbar__list__item">
-                <a href="#Contact">Contact</a>
-            </li>
+        <ul class="navbar__list">
+            <!-- <li class="navbar__list__item" id="home">Home</li> -->
+            <li class="navbar__list__item"><a href="#about">About Me</a></li> 
+            <li class="navbar__list__item"><a href="#projects">Projects</a></li>
+            <li class="navbar__list__item"><a href="#contact">Contact Me</a></li>
         </ul>
     </div>
-    
+
     <div class="picture">
-        <img class="picture__item" src="images/Badge Photo.jpeg" alt="Steven Miller smiling">
-    </div>
-    
-    <div class="about-me">
-        <h2 id="About-me__item">About Me</h2>
+        <img class="picture__item" src="./images/Badge Photo.jpeg" alt="Steven smiling for picture.">
     </div>
 
-    <div class="about-para">
-        <p>I am a 26 year old United States Marine Corps veteran, in service I had the pleasure of working on the UH-1Y, AH-1W and AH-1Z helicopters. My experiences taught me how to work under extremely stressful situations, work as a team, lead others and get any job done in any circumstance.</p>
+    <div class="about">
+        <h2 class="about__head" id="about">About me</h2>
+        <p class="about__para">I am a veteran of the United States Marine Corps. While I was on active duty I was blessed to work on the UH-1Y, AH-1W and AH-1Z helicopters as an Avionics technician. My experiences have taught me many things like working as a team, leading by example, pride in work, working under pressure and much more! Being in the military was a wonderful experience but now I enjoy helping others online with web development. With my background, pride, and initiative I bring to the table a plethora of skills. I would love to connect and work with you to reach your web related goals! </p>
     </div>
 
-    <div class="Projects">
-        <h2 id="Projects">Projects</h2>
+    <div class="pic-fly">
+        <img class="pic-fly__item" src="./images/fly-over.jpeg" alt="Air plane flys over U.S Marines">
     </div>
 
-    <div class="Projects-list">
-        <ul>
-            <li>
-                <a href="https://github.com/millersteventyler/my_first_repo.git">My first repository</a>
+    <div class="projects" id="projects">
+        <h2 class="projects__head">Projects</h2>
+        <ul class="projects__list">
+            <li class="projects__list__item">My First Repository
+                <p class="projects__list__item__para">I created a random day trip generator. The generator allows you to recieve a random destination, restaurant, transportation and entertainment. You are able to confirm your trip or elect to change the whole trip! Outcomes are logged on the console.</p>
+                <img class="project__list__item__pic" src="./images/my-first-repo.png" alt="Screenshot of code">
             </li>
-            <!-- <li>Project 2</li> -->
-            <!-- <li>Project 3</li> -->
-            <!-- <li>Project 4</li> -->
-            <!-- <li>Project 5</li> -->
         </ul>
     </div>
 
-    <div class="contact">
-        <h3 class="contact__item" id="Contact">Contact Steven T. Miller by:</h3>
-    </div>
-
-    <div class="address">
-    <address>
-    <ul class="address__list">
-        <li class="address__list__item">
-            <a href="tel:8083669078">Phone Number: (808) 366-9078</a>
-        </li>
-        <li class="address__list__item">
-            <a href="mailto:millersteventyler@gmail.com">Email: millersteventyler@gmail.com</a>
-        </li>
-        <li class="address__list__item"> 
-            <a href="https://www.linkedin.com/in/millersteventyler/">LinkedIn</a>
-        </li>
-    </ul>
     <div class="home">
-        <h2>
-            <a href="#Home">Home</a>
-        </h2>
+        <h2 class="home__head"><a href="#home">Home</a></h2>
     </div>
-    </address>
+    
+    <div class="contact" id="contact">
+        <address class="contact__address">
+        <h2 class="contact__head">Contact Steven!</h2>
+            <ul class="contact__list">
+                <li class="contact__list__item"><a href="tel:+1 808 366 9078">Phone: +1 808 366 9078</a></li>
+                <li class="contact__list__item"><a href="mailto:millersteventyler@gmail.com">Email: millersteventyler@gmail.com</a></li>  
+                <li class="contact__list__item"><a href="https://www.linkedin.com/in/millersteventyler/">LinkedIn</a></li> 
+            </ul>
+        </address>
     </div>
-
 </body>
 </html>
